@@ -1,0 +1,46 @@
+.hell{
+  color: green;
+  border-radius: 10px;
+  background: yellow;
+  border: 0px;
+  height: 25px;
+  width: 65px;
+  transition: height 0.5s;
+  transition: box-shadow 0.35s  
+}
+
+.hell:hover{
+  color: black;
+  background: red;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;  
+  height: 55px;
+  width: 95px;
+}
+
+.hel{
+  color: green;
+  border-radius: 10px;
+  background: yellow;
+  border: 0px;
+  height: 25px;
+  width: 65px;
+  transition: box-shadow 0.35s;  
+  transition: height 0.5s;
+  transition: width 0.5;
+  
+}
+
+.hel:hover{
+  color: black;
+  background: red;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;  
+  height: 55px;
+  width: 95px;
+}
+
+.img{
+  height: 500px;
+  position: top;
+}
